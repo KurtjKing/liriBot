@@ -205,12 +205,17 @@ function getRandom(){
     });
 };
 
-// //Function to log results from the other functions
+//Function to log results from the other functions
+// If I added this logresults to the end of each section I feel I could replace the append statments i have in them all
+// i just didnt want to risk breaking this at all with how much trouble i had 
+// i feel for example i could do logResults(artist) and pull the data. i just wanted to you guys to see this
 // function logResults(data){
 //     fs.appendFile("log.txt", data, function(err) {
 //       if (err)
 //           throw err;
 //     });
 //   };
+
+  
 
   selectors(command,userInputs);
